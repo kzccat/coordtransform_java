@@ -17,9 +17,13 @@
 
 
 GCJ02toBD09(double lng_GCJ, double lat_GCJ) # 火星坐标系->百度坐标系
+
 BD09toGCJ02(double lng_BD, double lat_BD)# 百度坐标系->火星坐标系
+
 WGS84toGCJ02(double lng_wgs, double lat_wgs) # WGS84坐标系->火星坐标系
+
 GCJ02toWGS84(double lng_gcj, double lat_gcj) # 火星坐标系->WGS84坐标系
+
 WGS84toMercator(lng, lat) # WGS84坐标系->标准墨卡托坐标系
 
 bdtoMercator(double lng,double lat) # 百度坐标系->标准墨卡托坐标系
